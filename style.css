@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+*{
+    padding:0%;
+    margin:0%;
+}
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    height:100vh;
+    box-sizing: border-box;
+}
+.strong{
+    color:yellow;
+}
+:root{
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-terciaria: aqua;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.87rem;
+    margin: 6.25rem;
+}
+.fonte{
+    font-family: 'Krona One', sans-serif;
+}
+.final{
+    text-align: center;
+    background-color:var(--cor-terciaria);
+    color: var(--cor-primaria);
+    padding:0.5%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.botao{
+display:flex;
+gap:3.12rem;
+}
+.botao1-2{
+    background-color:var(--cor-terciaria);
+    border-radius: 1.25rem;
+    padding:1.25rem;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color:var(--cor-primaria);
+    font-size:1.25rem;
+}
+.titulo-2{
+    font-family: 'Krona One', sans-serif;
+    color: yellow;
+    
+}
+.paragrafo-2{
+    font-family: 'Alex Brush', cursive;
+    
+    font-size: 400%;
+}
+.paragrafo{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:1.25rem;
+    padding:10%;
+}
+.dd{
+    background-color: var(--cor-terciaria);
+    text-align:center;
+    color:var(--cor-primaria);
+    padding:0.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+   
